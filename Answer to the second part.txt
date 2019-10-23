@@ -1,0 +1,16 @@
+A. Parent = Spell
+   Child = Accio and Confundo
+
+b. 
+- Accio
+- Summoning CharmAccio
+-  No description
+- Confundus charmConfundo
+- Causes the victim to become confused and bufuddled
+
+C. 
+- Confundus CharmConfundo
+  Causes the victim to become confused bufuddled
+- Why? Basically the __init__(seltion, name) will search for a "" signs and if I erase the spell = Accio() 
+up to study_spell(spell) it will foucs on the last one which is study_spell(Confundo()) and it 
+will automatically locate the class called Confundono and the code will decrypt on its own.
